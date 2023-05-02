@@ -1,0 +1,35 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>4</queueId>
+  <timestamp>1682951422032</timestamp>
+  <startTime>1682951422043</startTime>
+  <result>SUCCESS</result>
+  <description>#!/bin/bash&#xd;
+&#xd;
+pwd&#xd;
+echo `ip add | grep enp0s3 | awk &apos;NR==2 {print$2}&apos;`&#xd;
+mkdir Net4U&#xd;
+cd Net4U&#xd;
+touch 1.txt 2.txt 3.txt 4.txt 5.txt&#xd;
+echo &quot;Done!&quot;</description>
+  <duration>163</duration>
+  <charset>UTF-8</charset>
+  <keepLog>true</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/first_job</workspace>
+  <hudsonVersion>2.375.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

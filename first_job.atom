@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+    <feed xmlns="http://www.w3.org/2005/Atom"><title>Jenkins:first_job (all builds)</title><link rel="alternate" type="text/html" href="http://10.100.102.52:8080/job/first_job/"></link><updated>2023-05-01T14:30:22Z</updated><author><name>Jenkins Server</name></author><id>urn:uuid:903deee0-7bfa-11db-9fe1-0800200c9a66</id><entry><title>first_job #4 (stable)</title><link rel="alternate" type="text/html" href="http://10.100.102.52:8080/job/first_job/4/"></link><id>tag:hudson.dev.java.net,2023:first_job:4</id><published>2023-05-01T14:30:22Z</published><updated>2023-05-01T14:30:22Z</updated><content>#!/bin/bash
+
+pwd
+echo `ip add | grep enp0s3 | awk 'NR==2 {print$2}'`
+mkdir Net4U
+cd Net4U
+touch 1.txt 2.txt 3.txt 4.txt 5.txt
+echo "Done!"</content></entry></feed>
